@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <head>
+    <title>Circle Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+<body style="background-color:lightskyblue;">
+  <div align="center">
+    <h1 id="head1">Paint</h1>
+    <canvas id="myCanvas" width="800" height="600" style="background-color:white;"></canvas>
+    <br><br>
+    <span><b>Color:</b></span>
+    <b><input type="text" placeholder="Enter a color-hexadecimal" id="color_input"></b></input>
+
+    <span><b>Width:</b></span>
+    <b> <input type="text" placeholder="Enter a width number" id="width_input"></b></input>
+    <button onclick="clear_area()"><b>Clear Area</b></button>
+  </div>
+  <script src="func.js"></script>
+</body>
+
+</html>

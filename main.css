@@ -1,0 +1,21 @@
+
+  
+  #head1 {
+    color: black;
+    font-size: 40px;
+  }
+  #myCanvas {
+    border-style:ridge;
+    border-width:10px;
+    background-color:white;
+  }
+  
+  input {
+    margin-right: 20px;
+    background-color: lightpink;
+  }
+  button {
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+  }
